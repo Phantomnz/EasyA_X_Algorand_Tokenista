@@ -58,12 +58,14 @@ When a renter finds a GPU they like, they can start renting it. This kicks off a
 
 Once the renter is finished, they can stop the rental. The system automatically calculates the total cost based on how long they used it and handles the payment on the Algorand network.
 
+> **Technical Info:** This is done by sending a POST request to the /gpus//stop endpoint.
+
 ### 5\. Investors co-own datacentre clusters
 
 On our platform we allow fractional ownership of high performance GPU clusters (like those including the H100s that power your AIs), bringing
 the compute of giants to aspiring companies for a fraction of time and a fraction of the cost.
 
-> **Technical Info:** This is done by sending a POST request to the /gpus//stop endpoint.
+> **Techinical Info:** Fractional ownership will be achieved through the distribution of tokens to the investors
 
 🛠️ For Developers: Running The Project
 ---------------------------------------
