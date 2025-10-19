@@ -1,4 +1,4 @@
-💻 GPU Rental Marketplace on Algorand
+💻 GPU Rental Marketplace on Algorand: BitFox
 =====================================
 
 Welcome to our project for the EasyA x Algorand Hackathon! This is the backend server for a marketplace where anyone can rent out their computer's GPU power to others.
