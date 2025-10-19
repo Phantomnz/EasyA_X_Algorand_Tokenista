@@ -76,25 +76,19 @@ If you want to run the code yourself, follow these steps.
 
 You'll need a few things installed first:
 
-*   Python (Version 3.8 or newer)
+*   Python (Version 3.12 or newer)
     
-*   An Algorand Sandbox for local testing. You can get this by following the [Official Algorand Guide](https://www.google.com/search?q=https://developer.algorand.org/docs/run-a-node/setup/install/#sandbox-and-docker).
+*   Algokit and it's corresponding libraries; Set it up here: https://dev.algorand.co/getting-started/algokit-quick-start/#_top
     
 
-> **A Note for Windows Users:** The Algorand Sandbox runs best using the Windows Subsystem for Linux (WSL 2). It's a tool that lets you run a Linux environment directly on Windows. You'll need to install WSL 2 and Docker Desktop, then run the sandbox commands from the WSL terminal.
 
 ### Setup Instructions
 
 1.  **Clone the code** from this repository.
     
-2.  **Install the necessary Python packages:** pip install Flask py-algorand-sdk.
+2.  **Install the necessary Python packages:** pip install Flask etc.
     
-3.  **Configure your settings** in the backend\_final.py file. You'll need to add your Algorand Sandbox address and a funded account mnemonic.
-    
-4.  **Run the server** with the command: python backend\_final.py.
-    
-
-You should see it running on http://localhost:5001.
+3. **In Progress**
 
 ⚙️ What's Under The Hood? (Architecture Notes)
 ----------------------------------------------
